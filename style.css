@@ -166,13 +166,13 @@ p {
 
   /* 画像+説明の枠 */
 
-  #product-left > div {
+  #product-left>div {
     position: relative;
     height: 480px;
     margin-right: 20px;
   }
 
-  #product-right > div {
+  #product-right>div {
     position: relative;
     height: 480px;
     margin-left: 20px;
@@ -503,9 +503,10 @@ p {
     color: #ffffff;
     float: right;
   }
+
   /* mission.htmlのスタイル */
   /* ミッションのメインビジュアル */
-  #mission-main{
+  #mission-main {
     height: 496px;
     width: 100%;
     background-image: url(images/mission/mission-main.png);
@@ -513,7 +514,7 @@ p {
     background-position-y: center;
   }
 
-  #mission-title{
+  #mission-title {
     background-color: #2710d5;
     width: 368px;
     color: #ffffff;
@@ -522,78 +523,82 @@ p {
     position: relative;
   }
 
-  #mission-title > h1{
+  #mission-title>h1 {
     position: absolute;
     top: 0;
     left: 100px;
     font-size: 80px;
   }
 
-  #mission-title > span{
+  #mission-title>span {
     position: absolute;
     top: 200px;
     left: 100px;
     font-size: 26px;
   }
 
-  #mission-title > div{
+  #mission-title>div {
     position: absolute;
     top: 350px;
     left: 100px;
     font-size: 16px;
   }
 
-  #mission-s2dgs{
+  #mission-s2dgs {
     width: 100%;
     margin: 20px;
   }
 
-  .mission-h2{
+  .mission-h2 {
     color: #2710d5;
     font-size: 40px;
   }
 
-  .mission-h2::after{
+  .mission-h2::after {
     content: none;
   }
 
-  #mission-5goals{
+  #mission-5goals {
     margin: 20px;
     display: flex;
   }
 
-  #mission-5goals > div{
+  #mission-5goals>div {
     flex-grow: 1;
     padding: 20px;
   }
-  
-  #mission-5goals > div > div{
+
+  #mission-5goals>div>div {
     margin-bottom: 40px;
   }
 
-  .fivegoals-image-right{
+  .fivegoals-image-right {
     float: right;
     margin: 20px;
   }
-  .fivegoals-image-left{
+
+  .fivegoals-image-left {
     float: left;
     margin: 20px;
   }
-  .fivegoals-number{
+
+  .fivegoals-number {
     color: #2710d5;
     font-size: 48px;
     margin: 0;
   }
-  .fivegoals-h3{
+
+  .fivegoals-h3 {
     font-size: 28px;
     margin: 0;
   }
-  .fivegoals-p{
+
+  .fivegoals-p {
     margin: 0;
   }
 
   /* プロダクトページ */
-  #product-main{
+  #product-main {
     height: 496px;
     width: 100%;
     background-image: url(images/product/product-main.png);
@@ -601,7 +606,7 @@ p {
     background-position-y: center;
   }
 
-  #product-title{
+  #product-title {
     background-color: #2710d5;
     width: 368px;
     color: #ffffff;
@@ -610,20 +615,21 @@ p {
     position: relative;
   }
 
-  #product-title > h1{
+  #product-title>h1 {
     position: absolute;
     top: 0;
     left: 100px;
     font-size: 80px;
   }
-  #product-title > span{
+
+  #product-title>span {
     position: absolute;
     top: 200px;
     left: 100px;
     font-size: 26px;
   }
 
-  #product-title > div{
+  #product-title>div {
     position: absolute;
     top: 350px;
     left: 100px;
@@ -631,13 +637,13 @@ p {
   }
 
   /* section1 */
-  .product-section1{
+  .product-section1 {
     position: relative;
     margin: 20px;
     height: 340px;
   }
 
-  .product-section1 > img{
+  .product-section1>img {
     position: absolute;
     top: 0;
     left: 0;
@@ -646,19 +652,20 @@ p {
     border-radius: 0 432px 0 0;
   }
 
-  .product-section1 > div{
+  .product-section1>div {
     position: absolute;
     top: 0;
     left: 480px;
   }
+
   /* section2 */
-  .product-section2{
+  .product-section2 {
     position: relative;
     margin: 20px;
     height: 340px;
   }
 
-  .product-section2 > img{
+  .product-section2>img {
     position: absolute;
     top: 0;
     right: 0;
@@ -667,20 +674,20 @@ p {
     border-radius: 432px 0 0 0;
   }
 
-  .product-section2 > div{
+  .product-section2>div {
     width: 500px;
     position: absolute;
     top: 0;
     left: 0;
   }
 
-  .product-h2{
+  .product-h2 {
     color: #2710d5;
     font-size: 24px;
     margin: 0;
   }
 
-  .product-h3{
+  .product-h3 {
     font-size: 28px;
     margin: 0;
   }
@@ -1039,35 +1046,35 @@ p {
   }
 
   /* お問い合わせ */
-  #contact{
+  #contact {
     margin: 80px 20px;
   }
 
-  #contact > h3{
+  #contact>h3 {
     margin-bottom: 20px;
   }
 
-  #contact > form > div{
+  #contact>form>div {
     margin-bottom: 20px;
   }
 
-  .contact-heading{
+  .contact-heading {
     margin-bottom: 20px;
   }
 
   /* ラベル */
-  .contact-label{
+  .contact-label {
     font-weight: bold;
   }
 
   /* 必須 */
-  .contact-span{
+  .contact-span {
     color: #ce2222;
     margin: 0 0 0 20px;
     font-weight: bold;
   }
 
-  .contact-textbox{
+  .contact-textbox {
     height: 56px;
     border-top: 0;
     border-left: 0;
@@ -1080,7 +1087,7 @@ p {
     width: 100%;
   }
 
-  .contact-textarea{
+  .contact-textarea {
     height: 150px;
     border-top: 0;
     border-left: 0;
@@ -1089,30 +1096,30 @@ p {
     width: 100%;
   }
 
-  .radiobutton{
+  .radiobutton {
     margin-bottom: 20px;
   }
 
-  .radiobutton + label::after{
+  .radiobutton+label::after {
     content: \A;
     white-space: pre;
   }
 
   /* フッター */
-  footer{
+  footer {
     background-color: #0d0d0d;
     padding: 30px 20px 50px 20px;
   }
 
-  #footer-logo{
+  #footer-logo {
     margin-bottom: 30px;
   }
 
-  #footer-link{
+  #footer-link {
     margin-bottom: 50px;
   }
 
-  #footer-link > a{
+  #footer-link>a {
     text-decoration: none;
     margin: 0 20px 30px 0;
     display: block;
@@ -1121,28 +1128,28 @@ p {
     background-position: right top;
   }
 
-  #footer-link > a:link{
+  #footer-link>a:link {
     color: #ffffff;
   }
 
-  #footer-link > a:visited{
+  #footer-link>a:visited {
     color: #ffffff;
   }
 
-  #footer-link > a:hover{
+  #footer-link>a:hover {
     color: #ffffff;
     text-decoration: underline;
   }
 
-  #footer-link > a:active{
+  #footer-link>a:active {
     color: #ffffff;
   }
 
-  #sns-footer-link > a{
+  #sns-footer>a {
     margin-right: 30px;
   }
 
-  #copyright{
+  #copyright {
     font-size: 12px;
     display: block;
     margin-top: 30px;
@@ -1151,7 +1158,7 @@ p {
 
   /* mission.html用スタイル */
   /* ミッションのメインビジュアル */
-  #mission-main{
+  #mission-main {
     height: 256px;
     background-image: url(images/mission/mission-main.png);
     background-repeat: no-repeat;
@@ -1159,7 +1166,7 @@ p {
     background-size: auto 208px;
   }
 
-  #mission-title{
+  #mission-title {
     background-color: #2710d5;
     width: 136px;
     color: #ffffff;
@@ -1168,21 +1175,21 @@ p {
     position: relative;
   }
 
-  #mission-title > h1{
+  #mission-title>h1 {
     position: absolute;
     top: 0;
     left: 20px;
     font-size: 40px;
   }
 
-  #mission-title > span{
+  #mission-title>span {
     position: absolute;
     top: 110;
     left: 20px;
     font-size: 18px;
   }
 
-  #mission-title > div{
+  #mission-title>div {
     position: absolute;
     top: 180px;
     left: 20px;
@@ -1190,64 +1197,64 @@ p {
   }
 
   /* ミッションページ　S2dgsの設定 */
-  #mission-s2dgs{
+  #mission-s2dgs {
     margin: 20px;
   }
 
-  .mission-h2{
+  .mission-h2 {
     color: #2710d5;
     font-size: 30px;
     margin: 0px;
   }
 
-  .mission-h2::after{
+  .mission-h2::after {
     content: none;
   }
 
-  #mission-s2dgs > img{
+  #mission-s2dgs>img {
     width: 100%;
   }
 
   /* ミッションページ　5goalsの設定 */
-  #mission-5goals{
+  #mission-5goals {
     margin: 20px;
   }
 
-  #mission-5goals > div > div{
+  #mission-5goals>div>div {
     margin-bottom: 40px;
   }
 
-  #s2gds-image{
+  #s2gds-image {
     width: 100%;
   }
 
-  .fivegoals-image-right{
+  .fivegoals-image-right {
     margin: 20px auto;
     display: block;
   }
 
-  .fivegoals-image-left{
+  .fivegoals-image-left {
     margin: 20px auto;
     display: block;
   }
 
-  .fivegoals-number{
+  .fivegoals-number {
     color: #2710d5;
     font-size: 48px;
     margin: 0;
   }
 
-  .fivegoals-h3{
+  .fivegoals-h3 {
     font-size: 28px;
     margin: 0;
   }
 
-  .fivegoals-p{
+  .fivegoals-p {
     margin: 0;
   }
 
   /* プロダクトページ */
-  #product-main{
+  #product-main {
     height: 256px;
     width: 100%;
     background-image: url(images/product/product-main.png);
@@ -1255,7 +1262,8 @@ p {
     background-position-y: center;
     background-size: auto 208px;
   }
-  #product-title{
+
+  #product-title {
     background-color: #2710d5;
     width: 136px;
     color: #ffffff;
@@ -1263,57 +1271,60 @@ p {
     border-radius: 0 248px 248px 0;
     position: relative;
   }
-  #product-title > h1{
+
+  #product-title>h1 {
     position: absolute;
     top: 0;
     left: 20px;
     font-size: 40px;
   }
-  #product-title > span{
+
+  #product-title>span {
     position: absolute;
     top: 110px;
     left: 20px;
     font-size: 18px;
   }
-  #product-title > div{
+
+  #product-title>div {
     position: absolute;
     top: 180px;
     left: 20px;
     font-size: 13px;
   }
 
-  .product-section1{
+  .product-section1 {
     margin: 20px;
   }
 
-  .product-section1 > img{
+  .product-section1>img {
     width: 100%;
     border-radius: 0 300px 0 0;
   }
 
-  .product-section2{
+  .product-section2 {
     margin: 20px;
     display: flex;
     flex-direction: column;
   }
 
-  .product-section2 > img{
+  .product-section2>img {
     order: 1;
     width: 100%;
     border-radius: 300px 0 0 0;
   }
 
-  .product-section2 > div{
+  .product-section2>div {
     order: 2;
   }
 
-  .product-h2{
+  .product-h2 {
     color: #2710d5;
     font-size: 24px;
     margin: 0;
   }
 
-  .product-h3{
+  .product-h3 {
     font-size: 28px;
     margin: 0;
   }
